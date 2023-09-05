@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.form-background {
+    margin-top: 150px;
+    background: lightgrey;
+    padding: 50px;
+    height: 600px;
+    width: 1000px;
+    
+}
+
+.form-container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+}
+
+.table-bg {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+#search-keyword{
+    width: 99%;
+    height: 40px;
+    margin-bottom: 50px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.details {
+    font-size: 12px;
+}
